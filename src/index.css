@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.list {
+  @apply text-neutral-grayishblue text-sm uppercase font-bold hover:text-primary-softred
+}
+
+.btn {
+  @apply text-neutral-vdarkblue font-semibold text-center w-full text-lg pb-3 border-b-primary-softred border-b-2 hover:text-primary-softred
+}
+
+.brow {
+  @apply text-neutral-vdarkblue font-bold text-2xl
+}
+
+.brow-de {
+  @apply text-neutral-grayishblue text-base font-medium
+}
+
+.add {
+  @apply hover:text-primary-softblue hover:border-primary-softblue hover:border-2 hover:text-nowrap hover:bg-transparent hover:rounded-md
+}
+
+.button:hover {
+  @apply border-primary-softred border-2 text-primary-softred bg-white
+}
+
+.foot-list {
+  @apply text-neutral-grayishblue text-sm font-semibold uppercase hover:text-primary-softred
+}
